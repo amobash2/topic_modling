@@ -1,0 +1,2 @@
+bertopic==0.15.0
+sentence-transformers==2.2.2
