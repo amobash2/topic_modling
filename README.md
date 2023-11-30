@@ -10,4 +10,7 @@ To run this code and populate sample topic modeling results for `ATIS Intents Ka
 - Navigate to the folder containing `main.py` file
 - Run `python main.py --input_path="<Path to the data folder>/data/atis_intents.csv" --output_path="<output path>" --use_embedding=False --text_column="TEXT"`
 
-You can view an ![example result](./data/example_results.JPG) in this snapshot. Please note this current package is not fine-tunned for this specific data. However, BERTopic can be tunned for generating better topic modeling results by testing with different arguments of the `BERTopic` object in `topic_modeling.py` file.
+You can view an an example in this snapshot:
+![example result](./data/example_results.JPG)
+
+Please note this current package is not fine-tunned for this specific data. However, BERTopic can be tunned for generating better topic modeling results by testing with different arguments of the `BERTopic` object in `topic_modeling.py` file.
